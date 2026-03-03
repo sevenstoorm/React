@@ -1,0 +1,84 @@
+.card {
+  width: 280px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card-imagem {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card-titulo {
+  font-size: 1.35rem;
+  margin: 12px 12px 6px;
+  color: #111;
+}
+
+.card-genero {
+  color: #555;
+  font-size: 0.95rem;
+  margin: 4px 0 12px;
+}
+
+.preco-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 12px 0 20px;
+  min-height: 32px;
+}
+
+.preco-antigo {
+  color: #e74c3c;               /* vermelho */
+  text-decoration: line-through;
+  font-size: 1.1rem;
+  opacity: 0.85;
+}
+
+.preco-novo {
+  color: #27ae60;               /* verde */
+  font-size: 1.65rem;
+  font-weight: 800;
+}
+
+.preco {
+  font-size: 1.45rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.promo {
+  color: #27ae60;
+}
+
+.badge-promo {
+  background: #e74c3c;
+  color: white;
+  font-size: 0.75rem;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.desconto-badge {
+  background: #e74c3c;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+

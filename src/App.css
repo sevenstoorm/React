@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25vh;
+  background-color: #ffffff;
+}
+
+#-1{
+  background-color: aqua;
+}
